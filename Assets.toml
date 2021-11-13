@@ -1,0 +1,110 @@
+# asset pack configurations
+[asset_pack]
+    # asset pack name
+    name =              "zm-nacht-der-untoten"
+    # contributors
+    author =            "Voltaism"
+    # version
+    version =           "0.1.0"
+    # image URL
+    image =             "https://i.imgur.com/EipOvnZ.png"
+    # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
+    unreal_folder =     "nacht-der-untoten"
+
+# assets files
+[assets]
+    # maps
+    [assets.maps]
+        nacht_der_untoten = "nacht_der_untoten/nacht_der_untoten"
+
+    # static meshes
+    [assets.static_meshes]
+        B29_Partnose = "nacht_props/Meshes/FONV/Vehicles/B29/Parts/B29_Partnose"
+        B29_Partprop = "nacht_props/Meshes/FONV/Vehicles/B29/Parts/B29_Partprop"
+        B29_Parttube = "nacht_props/Meshes/FONV/Vehicles/B29/Parts/B29_Parttube"
+        B29_Partwing = "nacht_props/Meshes/FONV/Vehicles/B29/Parts/B29_Partwing"
+        Cube2 = "nacht_props/Meshes/Cube2"
+        _20mm-crate_close01 = "nacht_props/Meshes/props_supplies/german/20mm-crate_close01"
+        ac_footlocker_closed = "nacht_props/Meshes/props_supplies/american/ac_footlocker_closed"
+        ah_grass_256x256_001 = "nacht_props/Meshes/props_foliage/ah_grass_256x256_001"
+        ah_grass_512x512_001 = "nacht_props/Meshes/props_foliage/ah_grass_512x512_001"
+        ah_medium_pine = "nacht_props/Meshes/props_foliage/ah_medium_pine"
+        ah_small_pine = "nacht_props/Meshes/props_foliage/ah_small_pine"
+        boxes = "nacht_props/Meshes/props/boxes"
+        boxes_alt = "nacht_props/Meshes/props/boxes_alt"
+        boxes_outside = "nacht_props/Meshes/props/boxes_outside"
+        cabinet_box = "nacht_props/Meshes/props/cabinet_box"
+        field-radio03 = "nacht_props/Meshes/props_supplies/german/field-radio03"
+        func_door_rotating_48353 = "nacht_der_untoten/Meshes/func_door_rotating_48353"
+        func_door_rotating_48360 = "nacht_der_untoten/Meshes/func_door_rotating_48360"
+        generator01 = "nacht_props/Meshes/props_vehicles/german/generator01"
+        hedgerow02_large = "nacht_props/Meshes/props_foliage/hedgerow02_large"
+        jerrycan2 = "nacht_props/Meshes/props_supplies/german/jerrycan2"
+        m33_lamp_abajur_02 = "nacht_props/Meshes/z-o-m-b-i-e/Metro_2033/lamp/m33_lamp_abajur_02"
+        nacht_ceiling_broken = "nacht_props/Meshes/props/nacht_ceiling_broken"
+        nacht_ceiling_broken2 = "nacht_props/Meshes/props/nacht_ceiling_broken2"
+        nacht_palki = "nacht_props/Meshes/props/nacht_palki"
+        nacht_wall = "nacht_props/Meshes/props/nacht_wall"
+        nazi_barrel_1 = "nacht_props/Meshes/waw_models/nazi_barrel_1"
+        nazi_barrel_2 = "nacht_props/Meshes/waw_models/nazi_barrel_2"
+        nazi_burn_barrel = "nacht_props/Meshes/waw_models/nazi_burn_barrel"
+        opel_blitz2 = "nacht_props/Meshes/waw_models/opel_blitz2"
+        perila_bad = "nacht_props/Meshes/props/perila_bad"
+        polka = "nacht_props/Meshes/props/polka"
+        polka_box = "nacht_props/Meshes/props/polka_box"
+        polki_2 = "nacht_props/Meshes/props/polki_2"
+        polki_fallen = "nacht_props/Meshes/props/polki_fallen"
+        radiotower = "nacht_props/Meshes/waw_models/radiotower"
+        sandbag01 = "nacht_props/Meshes/props_trenches/sandbag01"
+        sandbag_blockade = "nacht_props/Meshes/sandbag_blockade"
+        sandbags_straight = "nacht_props/Meshes/props_trenches/sandbags_straight"
+        sandbags_straight_enda = "nacht_props/Meshes/props_trenches/sandbags_straight_enda"
+        sandbags_straight_endb = "nacht_props/Meshes/props_trenches/sandbags_straight_endb"
+        shkaf_single = "nacht_props/Meshes/props/shkaf_single"
+        shkafchiki = "nacht_props/Meshes/props/shkafchiki"
+        shkafchiki_2 = "nacht_props/Meshes/props/shkafchiki_2"
+        shkafchiki_another = "nacht_props/Meshes/props/shkafchiki_another"
+        shkafchiki_double = "nacht_props/Meshes/props/shkafchiki_double"
+        shkafchiki_ez = "nacht_props/Meshes/props/shkafchiki_ez"
+        st_light_alarm_02 = "nacht_props/Meshes/z-o-m-b-i-e/ST/light/st_light_alarm_02"
+        stuff = "nacht_props/Meshes/props/stuff"
+        sunduki = "nacht_props/Meshes/props/sunduki"
+        tree_deciduous_01a = "nacht_props/Meshes/props_foliage/tree_deciduous_01a"
+        tree_deciduous_01a-lod = "nacht_props/Meshes/props_foliage/tree_deciduous_01a-lod"
+        tree_deciduous_02a = "nacht_props/Meshes/props_foliage/tree_deciduous_02a"
+        tree_deciduous_03a = "nacht_props/Meshes/props_foliage/tree_deciduous_03a"
+        tree_deciduous_03b = "nacht_props/Meshes/props_foliage/tree_deciduous_03b"
+        under_stairs = "nacht_props/Meshes/props/under_stairs"
+        utilitypole01b = "nacht_der_untoten/Meshes/Models/props_c17/utilitypole01b"
+        w_lantern = "nacht_props/Meshes/weapons/cof/w_lantern"
+        wire-roll01 = "nacht_props/Meshes/props_supplies/german/wire-roll01"
+
+    # skeletal meshes
+    [assets.skeletal_meshes]
+        # SK_Better_Man = "Characters/SK_BetterMan_03"
+        # ...
+
+    # sounds
+    [assets.sounds]
+        # A_Awesome_Music = "Sounds/A_Awesome_Music"
+        # ...
+
+    # animations
+    [assets.animations]
+        # A_Character_Jump = "Animations/A_Character_Jump"
+        # ...
+
+    # particles
+    [assets.particles]
+        # P_Big_Explosion = "Particles/P_Big_Explosion"
+        # ...
+
+    # materials
+    [assets.materials]
+        # M_Red_Textured = "Materials/M_Red_Textured"
+        # ...
+
+    # other assets (for not yet categorized ones)
+    [assets.others]
+        # A_Audio_Rifle_Fire = "Audios/A_Audio_Rifle_Fire_03"
+        # ...
